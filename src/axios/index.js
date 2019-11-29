@@ -6,7 +6,6 @@ Vue.prototype.$axios = Axios
 
 Axios.defaults.timeout = 2000
 Axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
-// Axios.defaults.headers.post['Content-Type'] = 'application/json;charset=utf-8';
 Axios.defaults.headers.post['X-Requested-With'] = 'XMLHttpRequest';
 
 Axios.interceptors.request.use(function (config) {   
